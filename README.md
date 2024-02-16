@@ -10,3 +10,7 @@ If your version is bellow the .NET 8.0 run:
 ```bash
 dotnet new --install .
 ```
+then restore the project to install the dependencies with
+```bash
+dotnet restore
+```
