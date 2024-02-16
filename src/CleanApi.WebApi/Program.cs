@@ -1,6 +1,7 @@
 using CleanApi.Application;
 using CleanApi.Domain;
 using CleanApi.Infrastructure;
+using CleanApi.WebApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services
+    .AddWebApiServices()
     .AddInfrastructureServices()
     .AddApplicationServices()
     .AddDomainServices();
