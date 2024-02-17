@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Eduardo Caldas",
+  "classifications": [ "WebApi", "Web" ],
+  "identity": "CleanApi.Template",
+  "name": "Clean Api",
+  "shortName": "cleanapi",
+  "sourceName": "CleanApi",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true
+}
